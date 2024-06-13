@@ -11,10 +11,20 @@
 
 <body>
   <header> <!-- Šis ir mans virsraksts -->
-  <h1>Sveiki, pasaule!</h1>
+    <nav class="topnav">
+      <a href="index.html" class="active">Sākums</a>
+      <a href="par_mums.html">Par mums</a>
+      <a href="kontakti.html">Kontakti</a>
+    </nav>
+
   </header>
-  <hr>
+  <aside class="sidebar">
+    <a href="#saturs">Saturs</a>
+    <a href="#tabula">Tabula</a>
+  </aside>
   <main>
+  <h1>Sveiki, pasaule!</h1>
+  <p>Tests vai iet krāsa</p>
   <section id="saturs">
   <p>Šis ir mans pirmais HTML!</p>
   <img src="bilde.jpg" width="200px">
@@ -49,11 +59,12 @@
   </section>
   <section id="canva">
     <canvas id="zimejums" width="500" height="400"></canvas><br>
+
+  </section>
     <button onclick="taisnsturis()">Parādīt taisnstūri</button>
     <button onclick="aplis()">Parādīt apli</button>
     <button onclick="linija()">Parādīt līniju</button>
     <button onclick="teksts()">Parādīt tekstu</button>
-  </section>
   </main>
   <footer>&copy; Mana firma</footer>
   <script src="script.js"></script>
