@@ -46,3 +46,12 @@ function teksts() {
   konteksts.fillStyle = "red";
   konteksts.fillText("Sveiki, pasaule!", 200, 150);
 }
+
+function aprekins() {
+  let vards = document.getElementById("vards").value;
+  let pirmais = parseFloat(document.getElementById("a").value);
+  let otrais = parseFloat(document.getElementById("b").value);
+  let summa = pirmais * otrais;
+  console.log("Tevi sauc: " + vards + " Atbilde ir:" + summa);
+  document.getElementById("rezultats").innerHTML = "Tevi sauc: " + vards + "<br>Tu ievadīji a vērtību: " + pirmais + "<br> un otrā vērtība: "+ otrais +"<br><br> Atbilde ir:" + summa;
+}

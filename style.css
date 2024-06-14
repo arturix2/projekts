@@ -147,6 +147,10 @@ p {
   text-align: center;
 }
 
-#tabula tr:nth-child(3) {
+#tabula tr:nth-child(1) {
+  background-color: #d91717;
+}
+
+#tabula tr:nth-child(2) {
   background-color: #d91717;
 }
