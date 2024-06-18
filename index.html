@@ -14,8 +14,8 @@
   <header> <!-- Šis ir mans virsraksts -->
     <nav class="topnav">
       <a href="index.html" class="active">Sākums</a>
-      <a href="par_mums.html">Par mums</a>
-      <a href="kontakti.html">Kontakti</a>
+      <a href="par_mums.html" onclick="atjaunotIetvaru(this); return false;">Par mums</a>
+      <a href="kontakti.html" onclick="atjaunotIetvaru(this); return false;">Kontakti</a>
     </nav>
 
   </header>
@@ -23,7 +23,7 @@
     <a href="#saturs">Saturs</a>
     <a href="#tabula">Tabula</a>
   </aside>
-  <main>
+  <main id="lapas_saturs">
   <h1>Sveiki, pasaule!</h1>
   <p>Tests vai iet krāsa</p>
   <section id="saturs">
