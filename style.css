@@ -11,10 +11,12 @@ body {
 .topnav {
   overflow: hidden;
   background-color: #333;
-  margin-top: 0px;
+  margin-left: 200px;
   display: flex;
   justify-content: space-around;
-  margin-left: 200px;
+  position: fixed;
+  top: 0;
+  width: 85%;
 }
 
 .topnav a {
@@ -164,6 +166,6 @@ p {
 }
 
 #lapas_saturs {
-  width: 100%;
+  margin-top: 20px;
   height: 100%;
 }
